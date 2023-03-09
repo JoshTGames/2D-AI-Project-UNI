@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27efbc4ea4ddcff47840645d225d8d3d, type: 3}
+  m_Name: Sniper
+  m_EditorClassIdentifier: 
+  showGizmos: 0
+  maxStack: 1
+  itemPrefab: {fileID: 7316508950912281279, guid: 9d14de49b3c495b47b8b3a19b45f3ff8, type: 3}
+  itemImage: {fileID: 21300000, guid: 11be3659ea725c54ca69c5e3e998338d, type: 3}
+  itemDescription: Deadly, from afar!
+  itemColour:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  equipNoise: {fileID: 8300000, guid: 4a8d62263a5896745a28be272df0f54f, type: 3}
+  itemSettings:
+    weaponDamage: 7
+    fireRate: 2
+    timeToAttack: 0.25
+    reloadTime: 3
+    magCapacity: 3
+    sightRange: 15
+    projectile: {fileID: 11400000, guid: 4d7aae6af89e2c646a7740ee8bbda814, type: 2}
+    hasAoeAttack: 0
+    positionMultiplierFromCharacterIdle: 0.3
+    rotateAmountIdle: 2.5
+    idleSmoothing: 0.05
+    positionMultiplierFromCharacterActivate: 0.2
+    rotateAmountActivate: -15
+    activateSmoothing: 0.01
+    onTriggerAudio:
+    - {fileID: 8300000, guid: 8fa1b16dd48005848857a224b3e38adf, type: 3}
+    onImpactAudioForMelee: []
+    createDetectableSound: 1
+  ammoStorage: {fileID: 0}

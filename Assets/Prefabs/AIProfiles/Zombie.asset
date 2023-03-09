@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa41ec02b1ab934db14019e8c290673, type: 3}
+  m_Name: Zombie
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  health: 10
+  speed: 1
+  defaultHeldItems:
+  - {fileID: 11400000, guid: 0bb05ca0a38a9c0468ef4583fd331062, type: 2}
+  entitiesOfInterest:
+    serializedVersion: 2
+    m_Bits: 128
+  ignoreInteractionLayer:
+    serializedVersion: 2
+    m_Bits: 1536
+  behaviours:
+  - behaviourFor: 3
+    playerTag: Player
+    targetsToAttach:
+    - {fileID: 11400000, guid: d83c7ae95d1307c48aea2e0b9bee3f49, type: 2}
+    - {fileID: 11400000, guid: 8fc742c8e6f44d34bb1e518045f3bde8, type: 2}
+  priorities:
+  - task: 1
+    priority: 1
+    timeInMemory: 10
+  - task: 3
+    priority: 0.1
+    timeInMemory: 5
+  blood: {fileID: 6476224891357663154, guid: d9fd5f2ae7721af4993e69a0d0270006, type: 3}
+  deathFX: {fileID: 2816527014372273675, guid: 0ef98fb193f35fb49808ba418e7bf840, type: 3}
+  maxWeaponaryThisCharacterCanHold: 0
+  directionsToInvestigate:
+    min: 1
+    max: 3
+  chanceToInvestigate: 0.75
+  allowFleeAtPercentHealth: 0

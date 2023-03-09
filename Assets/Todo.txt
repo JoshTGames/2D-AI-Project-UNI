@@ -1,0 +1,19 @@
+To do:
+
+TODAY:
+- Add SFX to bullet moving (Static whoosh:)
+- Decorate world
+- Add medkits and behaviour to pick them up
+
+
+
+
+
+BOXING DAY (25-26/12/22):
+- Optimisation (Sensors dont run and only certain behaviours run when outside camera view)
+- A* pathfinding to characters
+
+
+
+- Grouped behaviours - E.g. Patrolling, Skittish (Agents will be grouped and whenever an event occurs, it will be sent to the other agents through the use of events)
+- Switching between patrolling and wandering? E.g. Characters will leave the camp after wandering and enter a patrol state, they will then finish their patrol, go back to the camp and enter wandering state again.

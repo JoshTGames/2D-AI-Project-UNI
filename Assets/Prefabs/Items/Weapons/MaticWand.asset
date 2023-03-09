@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27efbc4ea4ddcff47840645d225d8d3d, type: 3}
+  m_Name: MaticWand
+  m_EditorClassIdentifier: 
+  showGizmos: 0
+  maxStack: 1
+  itemPrefab: {fileID: 6323681824643406785, guid: b084a1db86342574d95d5f7e0ca101df, type: 3}
+  itemImage: {fileID: 21300000, guid: 50105f7faace57a43b0e2e5808b80dcb, type: 3}
+  itemDescription: 
+  itemColour:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  equipNoise: {fileID: 0}
+  itemSettings:
+    weaponDamage: 5
+    fireRate: 0.3
+    timeToAttack: 0.3
+    reloadTime: 0
+    magCapacity: 0
+    sightRange: 1
+    projectile: {fileID: 0}
+    hasAoeAttack: 0
+    positionMultiplierFromCharacterIdle: 0.1
+    rotateAmountIdle: -15
+    idleSmoothing: 0.05
+    positionMultiplierFromCharacterActivate: 0.5
+    rotateAmountActivate: 90
+    activateSmoothing: 0.15
+    onTriggerAudio:
+    - {fileID: 8300000, guid: c18c8c1a57bb2d642ab37f0fd80e8a25, type: 3}
+    onImpactAudioForMelee: []
+    createDetectableSound: 0
+  ammoStorage: {fileID: 0}

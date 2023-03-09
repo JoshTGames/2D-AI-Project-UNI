@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5564dea17736541a00a22ff0abba72, type: 3}
+  m_Name: Tina_Intro
+  m_EditorClassIdentifier: 
+  dialogueType: 1
+  dialogue:
+  - 'Hello, my name is Tina!
+
+    I absolutely loveeee cookies and muffins *hehe*'
+  - Whats your name?
+  responses:
+  - response: Hey, My name is Freya. Im quite into my games.
+    dialogueObject: {fileID: 11400000, guid: fc4ff591102392d48ba10acf06653322, type: 2}
+  - response: I'd rather not tell you...
+    dialogueObject: {fileID: 11400000, guid: 4fcfbda86f7b9eb4fa60222c5cd32d89, type: 2}
